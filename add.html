@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Expense</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Add Daily Expense</h1>
+
+    <label>Amount:</label><br>
+    <input type="number" id="amount"><br><br>
+
+    <label>Category:</label><br>
+    <select id="category">
+        <option>Food</option>
+        <option>Travel</option>
+        <option>Shopping</option>
+        <option>Others</option>
+    </select><br><br>
+
+    <label>Date:</label><br>
+    <input type="date" id="date"><br><br>
+
+    <button id="addBtn">Add Expense</button>
+
+    <h2>Total Expense: ₹ <span id="total">0</span></h2>
+
+    <ul id="expenseList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

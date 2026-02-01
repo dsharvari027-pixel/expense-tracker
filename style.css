@@ -1,0 +1,40 @@
+body {
+    background-color: #f4f6f8;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.tagline {
+    font-size: 18px;
+    color: #555;
+}
+
+.box {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #eef2f3;
+    border-radius: 8px;
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
